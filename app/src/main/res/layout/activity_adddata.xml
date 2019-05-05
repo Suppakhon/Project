@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/nn"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="108dp"
+        android:text="เพิ่มข้อมูลครุภัณฑ์ใหม่ "
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="ประเภท"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:background="@drawable/frame"
+        android:drawableLeft="@drawable/n" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="ห้อง/อาคาร"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:background="@drawable/frame"
+        android:drawableLeft="@drawable/nnn" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="TextView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:background="@drawable/frame"
+        android:drawableLeft="@drawable/nnnn" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/back2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:onClick="onClick"
+            android:text="กลับไปยังเมนู" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="บันทึกข้อมูล" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
