@@ -9,41 +9,40 @@
 
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="286dp"
         android:layout_height="wrap_content"
-        android:text="Follow notifications "
+        android:layout_gravity="center"
+        android:text="     Follow notifications "
         android:textSize="50dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <WebView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="434dp"
+        tools:ignore="WebViewLayout" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
 
     <Button
         android:id="@+id/back3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
         android:onClick="onClick"
-        android:layout_width="377dp"
-        android:layout_height="88dp"
         android:text="กลับไปยังเมนู" />
 
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/data"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="ดูข้อมูล" />
 
-    <ProgressBar
-        android:id="@+id/progressBar2"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="37dp" />
-
-    <SeekBar
-        android:id="@+id/seekBar"
-        android:layout_width="match_parent"
-        android:layout_height="45dp" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="430dp"
-        android:layout_height="267dp"
-        app:srcCompat="@drawable/aa" />
+</LinearLayout>
 
 
 </LinearLayout>

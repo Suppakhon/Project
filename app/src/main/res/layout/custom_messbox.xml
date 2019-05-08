@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ให้กำลังใจผู้พัฒนาแอพ"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <RatingBar
+        android:layout_gravity="center"
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="##ขอบคุณสำหรับการให้คะแนนครับ##"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+</LinearLayout>
